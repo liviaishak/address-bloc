@@ -79,4 +79,8 @@ class AddressBook
 
   end
 
+  def nuke
+    @entries = []
+  end
+
 end
